@@ -1,0 +1,451 @@
+body {
+  margin: auto;
+  padding: 0;
+  font-family: open sans;
+}
+
+body p {
+  font-size: 1rem;
+}
+ button {
+  background-color: red;
+  padding: 0.5625rem;
+  color: white;
+  border: none;
+  border-radius:0.75rem;
+}
+ .section-one {
+  position: relative;
+  padding: 0.5625rem;
+  padding-left: 0;
+  padding-right: 0;
+  background-image: url(images/background.png);
+  height: 100vh;
+  background-size: 120%;
+  background-repeat: no-repeat;
+}
+.section-one img {
+  width: 6.8125rem;
+  display: block;
+  margin: 0 auto;
+}
+ .section-one nav {
+  background-color: rgb(255,48,8);
+  position: fixed;
+  width: 100%;
+  margin-top: -0.8125rem;
+  height: 1.875rem;
+  padding-top: 1.25rem;
+  z-index: 9999;
+}
+  .sign {
+  float: right;
+  margin-top: -0.875rem;
+  padding-right: 0.5625rem;
+}
+
+   .signs {
+  background-color: rgb(255, 0, 0);
+  padding: 0.25rem;
+  border-radius: 0.5rem;
+  border: none;
+}
+  .signs a {
+  text-decoration: none;
+  color: white;
+}
+ .signss {
+  background-color: rgb(255, 255, 255);
+  padding: 0.25rem;
+  border-radius: 0.5rem;
+  border: none;
+}
+   .signss a {
+  text-decoration: none;
+  color: black;
+}
+ .section-one h2 {
+  position: absolute;
+  top: 11.875rem;
+  left: 21.875rem;
+  color: white;
+  font-size: 2.4125rem;
+  word-spacing: 0.1875rem;
+}
+  .deliver {
+  width: 23rem;
+  height: 3rem;
+  border-radius: 2.6875rem;
+  border: 1px solid white;
+  position: absolute;
+  top: 18.125rem;
+  left: 34.125rem;
+  padding-left: 3rem;
+}
+
+
+ .saved-address {
+  padding:0.4375rem;
+  padding-bottom: 1.25rem;
+  width: 15rem;
+  height: 1.7rem;
+  border-radius: 1.6875rem;
+  border: 1px solid white;
+  background-color: white;
+  position: absolute;
+  top: 22.225rem;
+  left: 39.375rem;
+}
+ .saved-address a {
+  text-decoration: none;
+  color: rgb(71, 60, 60);
+}
+ .section-two {
+  position: relative;
+  padding-right: 0;
+  font-size: 1.25rem;
+  text-align: center;
+  top: 6rem;
+  
+}
+ .links a {
+  text-decoration: none;
+  color: red;
+}
+ .dash-1 {
+  position: absolute;
+  left: 9.375rem;
+}
+ .dash-2 {
+  position: absolute;
+  left: 34.375rem;
+}
+ .dash-3 {
+  position: absolute;
+  left: 58.75rem;
+  top: -1rem;
+}
+
+.dash-3 img {
+  width: 11rem;
+}
+
+.dash-1 p, .dash-2 p,.dash-3 p {
+  font-size: 1rem;
+  
+}
+ .flavour {
+  
+  
+  position: relative;
+  top: 31.5rem;
+  left: 0;
+  padding-left: 1.1875rem;
+}
+ .flavour img {
+position: absolute;
+  width: 43.75rem;
+  left: 34.375rem;
+}
+  .sub-flavour {
+  position: absolute;
+  top: 6.375rem;
+  left: 6.25rem;
+  text-align: left;
+}
+
+
+
+
+.sub-flavour h1 {
+  font-size: 2.125rem;
+}
+ .section-three {
+  position: relative;
+  top: 66.5rem;
+  padding-top: 3.125rem;
+  background-color: rgb(248, 211, 154);
+  padding-bottom: 0.5625rem;
+}
+
+.section-three img {
+  width: 40.625rem;
+  position: relative;
+  left: 5.625rem;
+}
+ .dashpass {
+  position: absolute;
+  left: 49.375rem;
+  top: 9.875rem;
+  font-size: 1.5rem;
+}
+
+.dashpass h1 {
+  font-size: 30px;
+}
+
+.dashpass p {
+  font-size: 1rem;
+}
+ .section-four {
+  position: relative;
+  width: 100%;
+  top: 66.6rem;
+  background-image: url(images/grocery_desktop.png);
+  background-repeat: no-repeat;
+  height: 90vh;
+  color: white;
+}
+ .section-four div {
+  position: absolute;
+  top: 6.25rem;
+  left: 23.75rem;
+  text-align: center;
+  font-size: 1.25rem;
+  z-index: 999;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 36.25rem;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+.section-five {
+  position: relative;
+  top: 65.5rem;
+  z-index: 1;
+}
+ .section-five div {
+  position: relative;
+  top: 10.625rem;
+  left: 5.625rem;
+  font-size: 1.5rem;
+}
+ .section-five img {
+  position: absolute;
+  left: 37.5rem;
+  top: 0.625rem;
+}
+ .section-six {
+  position: relative;
+  top: 81.25rem;
+  background-color: rgb(248, 211, 154);
+  height: 106.25rem;
+  text-align: center;
+  font-size: 1.25rem;
+}
+
+.section-six img {
+  width: 37.5rem;
+  height: 28.125rem;
+}
+ .todo {
+  /* position: absolute;
+  left: 20px;
+  top: 20px; */
+  text-align: center;
+  padding-top:2.5rem;
+}
+ .child-div-contain-1 {
+  position: absolute;
+  top: 8.125rem;
+  left: 4.375rem;
+}
+ 
+ .flowers {
+  position: relative;
+  left: 3.125rem;
+}
+ .child-div-contain-2 {
+  position: absolute;
+  left: 42.5rem;
+ top: 8.125rem;
+}
+ .child-div-contain-3 {
+  position: absolute;
+ top: 50.625rem;
+  left: 4.375rem;
+}
+ .child-div-contain-4 {
+  position:absolute;
+  top: 50.625rem;
+  left: 42.5rem;
+}
+ .seven {
+  position: relative;
+  top: 82.5rem;
+}
+ .seven #unlock {
+  position: absolute;
+  left: 30.625rem;
+  font-size: 1.8125rem;
+}
+ .seven img {
+  position: absolute;
+  left: 37.5rem;
+  top: 8.125rem;
+  width: 40.625rem;
+}
+.child-container-seven {
+  position: absolute;
+  top: 15.625rem;
+  width: 40%;
+  left: 5rem;
+  font-size: 1.375rem;
+}
+ .section-eight {
+  background-color: rgb(248, 211, 154);
+  position: relative;
+  top:121.875rem;
+  margin-bottom: -10px;
+  width: 100%;
+  height: 80vh;
+}
+.section-eight img {
+  position: absolute;
+  top: 3.125rem;
+  width: 40.625rem;
+  left: 5rem;
+}
+ .child-container-eight {
+  position: absolute;
+  left: 50rem;
+  top: 3.125rem;
+  font-size: 1.3125rem;
+  
+}
+ .section-nine {
+  position: relative;
+  top: 125rem;
+}
+ .section-nine hr {
+  position: relative;
+  top: 5.625rem;
+}
+ .section-nine h2 {
+  position: absolute;
+  left: 30.625rem;
+  top: -1.875rem;
+}
+ .city-u {
+  position: relative;
+  top: 3.125rem;
+}
+ .city-u #citi-1 {
+  position: absolute;
+  left: 11.875rem;
+}
+ .city-u #citi-2 {
+  position: absolute;
+  left: 34.375rem;
+}
+ .city-u #citi-3 {
+  position: absolute;
+  left: 62.5rem;
+}
+ .many-divs ul {
+  list-style-type: none;
+}
+ .many-divs ul li {
+  padding-bottom: 0.5625rem;
+}
+ .city-one {
+  position: absolute;
+  top: 6.25rem;
+  left: 2.5rem;
+}
+ .city-two {
+  position: absolute;
+  left: 15.625rem;
+  top: 6.25rem;
+}
+ .city-three {
+  position: absolute;
+  left: 28.125rem;
+  top: 6.25rem;
+}
+ .city-four {
+  position: absolute;
+  left: 43.75rem;
+  top: 6.25rem;
+}
+ .city-five {
+  position: absolute;
+  left: 60.625rem;
+  top: 6.25rem;
+}
+ .section-ten {
+  position: relative;
+  top: 140.625rem;
+  padding-top: 0.5625rem;
+  background-color: black;
+  color: white;
+}
+.divs-container ul {
+  list-style-type: none;
+}
+  .popular-two {
+  position: absolute;
+  left: 18.75rem;
+  top: 3.4375rem;
+}
+ .popular-three {
+  position: absolute;
+  left: 42.5rem;
+  top: 3.4375rem;
+}
+ .popular-four {
+  position: absolute;
+  left: 61.875rem;
+  top: 3.4375rem;
+}
+ .primary-div {
+  position: relative;
+}
+ .primary-div ul {
+  list-style-type: none;
+}
+ .know-one {
+  position: relative;
+  left: 1.25rem;
+  top: 1.25rem;
+}
+ .know-one li {
+  padding-bottom: 0.25rem;
+}
+ .know-one h4 {
+  margin-left: 0.8125rem;
+}
+ .know-one ul {
+  margin-left: -1.6875rem;
+}
+ .help-two {
+  position: relative;
+  left: 13.75rem;
+  bottom: 21.875rem;
+}
+  .help-two ul {
+  margin-left: -2.4375rem;
+}
+ .business-three {
+  position: relative;
+  left: 29.375rem;
+  bottom: 28.6875rem;
+}
+ .business-three ul {
+  margin-left: -2.4375rem;
+}
+ .section-ten .termss {
+  position: relative;
+  bottom: 11.875rem;
+  float: left;
+  margin-top: 0.5625rem;
+  left: 6.25rem;
+}
+ .section-ten .termss p {
+  display: inline-block;
+  padding-right: 0.875rem;
+}
